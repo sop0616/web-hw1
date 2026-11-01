@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영화 보드 | CINEMA CLUB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">🎬 CINEMA CLUB</a>
+    <nav aria-label="주요 메뉴">
+      <a href="#mine">MY MOVIES</a>
+      <a href="#boxoffice">BOX OFFICE</a>
+      <a href="detail.html">MOVIE DETAIL ↗</a>
+    </nav>
+  </header>
+
+  <section class="hero" aria-label="대표 영화">
+    <div class="hero-content">
+      <p class="eyebrow">YOUR NEXT FAVORITE FILM</p>
+      <h1>영화가 남긴<br><span>작은 우주</span></h1>
+      <p>좋아하는 영화부터 오늘의 극장가까지,<br>나만의 영화 보드를 만나보세요.</p>
+      <a class="hero-button" href="#mine">영화 둘러보기 ↓</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="mine" class="movie-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">PICKED BY ME</p><h2>내 인생 영화<br class="mobile-break"> 5편</h2></div>
+        <span class="section-count">01 / PERSONAL PICKS</span>
+      </div>
+      <div class="board">
+        <article class="card">
+          <div class="poster-wrap"><img class="poster" src="https://image.tmdb.org/t/p/w342/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="인터스텔라 포스터"><span class="badge">8.4</span></div>
+          <div class="info"><p class="genre">SCI-FI · DRAMA</p><h3>인터스텔라</h3><p class="year">2014</p><p class="description">인류의 미래를 찾아 우주로 떠나는 여정.</p></div>
+        </article>
+        <article class="card">
+          <div class="poster-wrap"><img class="poster" src="https://image.tmdb.org/t/p/w342/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg" alt="인셉션 포스터"><span class="badge">8.4</span></div>
+          <div class="info"><p class="genre">SCI-FI · THRILLER</p><h3>인셉션</h3><p class="year">2010</p><p class="description">꿈과 현실의 경계를 넘나드는 작전.</p></div>
+        </article>
+        <article class="card">
+          <div class="poster-wrap"><img class="poster" src="https://image.tmdb.org/t/p/w342/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg" alt="라라랜드 포스터"><span class="badge">7.9</span></div>
+          <div class="info"><p class="genre">ROMANCE · MUSIC</p><h3>라라랜드</h3><p class="year">2016</p><p class="description">꿈과 사랑 사이에서 빛나는 순간들.</p></div>
+        </article>
+        <article class="card">
+          <div class="poster-wrap"><img class="poster" src="https://image.tmdb.org/t/p/w342/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg" alt="센과 치히로의 행방불명 포스터"><span class="badge">8.5</span></div>
+          <div class="info"><p class="genre">ANIMATION · FANTASY</p><h3>센과 치히로의 행방불명</h3><p class="year">2001</p><p class="description">낯선 세계에서 자신을 찾아가는 성장담.</p></div>
+        </article>
+        <article class="card">
+          <div class="poster-wrap"><img class="poster" src="https://image.tmdb.org/t/p/w342/q719jXXEzOoYaps6babgKnONONX.jpg" alt="너의 이름은 포스터"><span class="badge">8.5</span></div>
+          <div class="info"><p class="genre">ANIMATION · ROMANCE</p><h3>너의 이름은.</h3><p class="year">2016</p><p class="description">시간과 거리를 넘어 서로를 찾는 이야기.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="boxoffice" class="movie-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">KOREAN BOX OFFICE</p><h2>일별 박스오피스<br class="mobile-break"> TOP 5</h2><p class="basis">KOBIS 기준일 2026-10-25</p></div>
+        <span class="section-count">02 / DAILY RANKING</span>
+      </div>
+      <div class="board">
+        <article class="card">
+          <div class="poster-wrap"><div class="poster poster-fallback">치</div><span class="rank">1</span></div>
+          <div class="info"><p class="genre">ANIMATION</p><h3>극장판 치이카와:<br>인어 섬의 비밀</h3><p class="year">개봉 2026-09-30</p><p class="audience">누적 2,248,142명</p><p class="change">-</p></div>
+        </article>
+        <article class="card">
+          <div class="poster-wrap"><div class="poster poster-fallback">암</div><span class="rank">2</span></div>
+          <div class="info"><p class="genre">CRIME · DRAMA</p><h3>암살자(들)</h3><p class="year">개봉 2026-09-23</p><p class="audience">누적 3,374,490명</p><p class="change">-</p></div>
+        </article>
+        <article class="card">
+          <div class="poster-wrap"><div class="poster poster-fallback">실</div><span class="rank">3</span></div>
+          <div class="info"><p class="genre">DRAMA</p><h3>실낙원</h3><p class="year">개봉 2026-10-21</p><p class="audience">누적 104,877명</p><p class="change">-</p></div>
+        </article>
+        <article class="card">
+          <div class="poster-wrap"><div class="poster poster-fallback">타</div><span class="rank">4</span></div>
+          <div class="info"><p class="genre">CRIME · DRAMA</p><h3>타짜:<br>벨제붑의 노래</h3><p class="year">개봉 2026-09-23</p><p class="audience">누적 1,999,474명</p><p class="change up">1</p></div>
+        </article>
+        <article class="card">
+          <div class="poster-wrap"><div class="poster poster-fallback">클</div><span class="rank">5</span></div>
+          <div class="info"><p class="genre">HORROR</p><h3>클레이페이스</h3><p class="year">개봉 2026-10-21</p><p class="audience">누적 77,148명</p><p class="change down">1</p></div>
+        </article>
+      </div>
+      <p class="data-note">박스오피스 순위·개봉일·관객 수는 KOBIS 일별 집계 기준입니다. 일부 포스터 경로를 확인하지 못해 대체 표지를 사용했습니다.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>이 사이트는 TMDB API를 사용하지만<br>TMDB의 보증이나 인증을 받지 않았습니다.</p>
+    <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+    <p>포스터와 영화 정보: <a href="https://www.themoviedb.org/">TMDB</a></p>
+    <p>박스오피스 데이터: 영화진흥위원회 영화관입장권통합전산망(KOBIS), 기준일 2026-10-25</p>
+  </footer>
+</body>
+</html>
